@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("../public/fundo4.jpeg");
+}
+
+.register-container {
+  padding: 10px 10px;
+  width: 40%;
+  height: 40%;
+  margin-top: 20px;
+  border: 3px solid green;
+  border-radius: 5px;
+  background-color: whitesmoke;
+  color: green;
+}
+.Nome {
+padding: 50px;
+font-family: cursive;
+align-self: center;
+background-color: white;
+color: green;
+border: 3px solid green;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 30px;
+}
+.register-input {
+  display: block;
+  margin: 10px auto;
+  padding: 7px 0;
+  border-radius: 2px;
+}
+
+button {
+ padding: 10px;
+ margin-left: 30%;
+ color: green;
+}
